@@ -1,14 +1,16 @@
 if __name__=="__main__":
-  x = 14
-  y = 23
-  z = 6
+  x = 20
+  y = 43
+  z = 5
   f = 10
   answer = (x — y) * z / f 
   print (“Result =”, answer)
   # O/P : Result = -5.4
+  
   e = ((x - y) * z) / f    
   print("Result =",  answer)
   # O/P : Result = -5.4
+  
   e = (x - y) * (z / f);    
   print("Result =",  answer)
   # O/P : Result = -5.4
