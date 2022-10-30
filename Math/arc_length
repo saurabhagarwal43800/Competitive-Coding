@@ -1,0 +1,15 @@
+# Program to calculate arc length of an angle
+
+def arclength(diameter,angle):
+    pi=22/7
+    if angle >= 360:
+        print("Angle is not possible")
+        return
+    arc_len = (pi*diameter) * (angle/360)
+    print("Arc Length is: ", arc_len)
+
+if __name__=="__main__":
+  diameter = float(input('Diameter of circle: '))
+  angle = float(input('angle measure: '))
+  arclength(diameter,angle)
+  
